@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <NavbarVue></NavbarVue>
     <div class="container">
       <HeaderVue></HeaderVue>
       <SekigaeVue></SekigaeVue>
@@ -9,13 +8,11 @@
 </template>
 
 <script>
-import NavbarVue from "./components/Navbar.vue";
 import HeaderVue from "./components/Header.vue";
 import SekigaeVue from "./components/Sekigae.vue";
 
 export default {
   components: {
-    NavbarVue,
     HeaderVue,
     SekigaeVue
   }
