@@ -1,28 +1,8 @@
-# sekigae-app
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
+# 席替えアプリ
+### 概要
+学校で使える席替えアプリです。
+席替えをするのは簡単ですが、結構時間がかかります。
+男女の指定ができるようにして、それぞれ別々にランダムに並べ替えることができます。
 
 ### 使い方
 席替えを簡単に行うために作ったwebサービスです
@@ -31,11 +11,22 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 3. 青色が男子、赤色が女子です。
 4. 「シャッフル」ボタンを押すと男女別にシャッフルがされます。
 5. 「リセット」ボタンを押すと表示がリセットされます。
+## URL
+https://cedrictarou.github.io/cedrictarou-portfolio-sekigae/
 
-### 特徴
+### 使用技術
 - Vue.js 2.6.10を使用しています。
 - Vue cli 4.1.0を使用しています。
 - 男女別にシャッフルすることができます。
+- inputをwatchで監視し、変更をすぐに反映するようにしています。
 - Vue.Draggableを使用して、ドラッグアンドドロップで移動することができます。 https://github.com/SortableJS/Vue.Draggable
 
+## インストール方法
+```
+npm install
+```
 
+### ローカルサーバーでの立ち上げ
+```
+npm run serve
+```
