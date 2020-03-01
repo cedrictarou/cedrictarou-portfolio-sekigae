@@ -1,5 +1,5 @@
 # 席替えアプリ
-![席がえアプリ with Vue.js](src/assets/席がえアプリ.gif)
+![席がえアプリ with Vue.js](src/assets/sekigaeApp.png)
 ### 概要
 学校で使える席替えアプリです。
 席替えをするのは簡単ですが、結構時間がかかります。
